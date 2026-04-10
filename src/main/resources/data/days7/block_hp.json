@@ -1,0 +1,174 @@
+{
+  "defaultHP": 500,
+  "handDamage": 20.0,
+  "handAttackSpeed": 2,
+  "allowHandAttack": true,
+  "swingDelayTicks": 10,
+
+  "blocks": {
+    "minecraft:stone": 150,
+    "minecraft:cobblestone": 120,
+    "minecraft:granite": 140,
+    "minecraft:diorite": 140,
+    "minecraft:andesite": 140,
+    "minecraft:deepslate": 200,
+    "minecraft:cobbled_deepslate": 180,
+    "minecraft:obsidian": 1000,
+    "minecraft:crying_obsidian": 1000,
+    "minecraft:bedrock": -1,
+    "minecraft:dirt": 50,
+    "minecraft:grass_block": 50,
+    "minecraft:dirt_path": 45,
+    "minecraft:sand": 40,
+    "minecraft:red_sand": 40,
+    "minecraft:gravel": 45,
+    "minecraft:clay": 50,
+    "minecraft:oak_log": 80,
+    "minecraft:spruce_log": 80,
+    "minecraft:birch_log": 70,
+    "minecraft:jungle_log": 85,
+    "minecraft:acacia_log": 75,
+    "minecraft:dark_oak_log": 90,
+    "minecraft:mangrove_log": 75,
+    "minecraft:cherry_log": 70,
+    "minecraft:oak_planks": 60,
+    "minecraft:spruce_planks": 60,
+    "minecraft:birch_planks": 55,
+    "minecraft:jungle_planks": 65,
+    "minecraft:acacia_planks": 58,
+    "minecraft:dark_oak_planks": 70,
+    "minecraft:iron_ore": 180,
+    "minecraft:deepslate_iron_ore": 220,
+    "minecraft:gold_ore": 200,
+    "minecraft:deepslate_gold_ore": 240,
+    "minecraft:diamond_ore": 250,
+    "minecraft:deepslate_diamond_ore": 300,
+    "minecraft:emerald_ore": 280,
+    "minecraft:deepslate_emerald_ore": 330,
+    "minecraft:lapis_ore": 160,
+    "minecraft:deepslate_lapis_ore": 200,
+    "minecraft:redstone_ore": 170,
+    "minecraft:deepslate_redstone_ore": 210,
+    "minecraft:coal_ore": 140,
+    "minecraft:deepslate_coal_ore": 180,
+    "minecraft:copper_ore": 150,
+    "minecraft:deepslate_copper_ore": 190,
+    "minecraft:ancient_debris": 500,
+    "minecraft:netherrack": 30,
+    "minecraft:nether_bricks": 120,
+    "minecraft:end_stone": 180,
+    "minecraft:end_stone_bricks": 200,
+    "minecraft:purpur_block": 170,
+    "minecraft:glass": 10,
+    "minecraft:glass_pane": 5,
+    "minecraft:tinted_glass": 15,
+    "minecraft:ice": 30,
+    "minecraft:packed_ice": 80,
+    "minecraft:blue_ice": 100,
+    "minecraft:snow_block": 25,
+    "minecraft:wool": 30,
+    "minecraft:sponge": 40,
+    "minecraft:wet_sponge": 45,
+    "minecraft:oak_leaves": 20,
+    "minecraft:spruce_leaves": 20,
+    "minecraft:birch_leaves": 20,
+    "minecraft:jungle_leaves": 20,
+    "minecraft:bricks": 130,
+    "minecraft:bookshelf": 70,
+    "minecraft:mossy_cobblestone": 125,
+    "minecraft:tnt": 5,
+    "minecraft:iron_block": 350,
+    "minecraft:gold_block": 400,
+    "minecraft:diamond_block": 500,
+    "minecraft:emerald_block": 550,
+    "minecraft:netherite_block": 800
+  },
+
+  "tools": {
+    "minecraft:wooden_pickaxe": {
+      "damage": 8,
+      "attackSpeed": 3.0,
+      "swingDelayTicks": 5
+    },
+    "minecraft:stone_pickaxe": {
+      "damage": 12,
+      "attackSpeed": 3.2
+    },
+    "minecraft:iron_pickaxe": {
+      "damage": 18,
+      "attackSpeed": 3.5
+    },
+    "minecraft:diamond_pickaxe": {
+      "damage": 28,
+      "attackSpeed": 4.0
+    },
+    "minecraft:netherite_pickaxe": {
+      "damage": 35,
+      "attackSpeed": 4.5,
+      "swingDelayTicks": 3
+    },
+    "minecraft:wooden_axe": {
+      "damage": 10,
+      "attackSpeed": 1.6,
+      "swingDelayTicks": 8
+    },
+    "minecraft:stone_axe": {
+      "damage": 14,
+      "attackSpeed": 1.6
+    },
+    "minecraft:iron_axe": {
+      "damage": 20,
+      "attackSpeed": 1.8
+    },
+    "minecraft:diamond_axe": {
+      "damage": 30,
+      "attackSpeed": 2.0
+    },
+    "minecraft:netherite_axe": {
+      "damage": 38,
+      "attackSpeed": 2.2
+    },
+    "minecraft:wooden_shovel": {
+      "damage": 8,
+      "attackSpeed": 3.5
+    },
+    "minecraft:stone_shovel": {
+      "damage": 12,
+      "attackSpeed": 3.7
+    },
+    "minecraft:iron_shovel": {
+      "damage": 18,
+      "attackSpeed": 4.0
+    },
+    "minecraft:diamond_shovel": {
+      "damage": 28,
+      "attackSpeed": 4.5
+    },
+    "minecraft:netherite_shovel": {
+      "damage": 35,
+      "attackSpeed": 5.0
+    },
+    "minecraft:shears": {
+      "damage": 12,
+      "attackSpeed": 4.0
+    }
+  },
+
+  "toolEffectiveness": {
+    "minecraft:wooden_pickaxe": {
+      "minecraft:mineable/pickaxe": 2.0
+    },
+    "minecraft:stone_pickaxe": {
+      "minecraft:mineable/pickaxe": 2.0
+    },
+    "minecraft:iron_pickaxe": {
+      "minecraft:mineable/pickaxe": 2.5
+    },
+    "minecraft:diamond_pickaxe": {
+      "minecraft:mineable/pickaxe": 3.0
+    },
+    "minecraft:netherite_pickaxe": {
+      "minecraft:mineable/pickaxe": 3.5
+    }
+  }
+}

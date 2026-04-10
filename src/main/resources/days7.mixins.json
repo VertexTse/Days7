@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.vertex.days7.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "days7.refmap.json",
+  "mixins": [
+    "GunModMixin",
+    "ServerGamePacketListenerImplMixin",
+    "items.DiggerItemMixin",
+    "items.SwordItemMixin",
+    "player.FoodDataMixin",
+    "player.PlayerMixin",
+    "player.ServerPlayerGameModeMixin"
+  ],
+  "client": [
+    "LevelRendererMixin",
+    "MinecraftMixin",
+    "gui.ForgeGuiMixin",
+    "gui.GuiAccessor",
+    "gui.GuiMixin",
+    "player.MultiPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
